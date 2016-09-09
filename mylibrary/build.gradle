@@ -47,7 +47,7 @@ publishing {
 }
 
 artifactory {
-    contextUrl = 'http://HOST/artifactory'
+    contextUrl = "http://$artifactory_host/artifactory"
     publish {
         repository {
             repoKey = 'libs-release-local'

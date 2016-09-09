@@ -16,7 +16,7 @@ allprojects {
     repositories {
         jcenter()
         maven {
-            url "http://HOST/artifactory/libs-release-local"
+            url "http://$artifactory_host/artifactory/libs-release-local"
             credentials {
                 username = "${artifactory_username}"
                 password = "${artifactory_password}"
