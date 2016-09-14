@@ -1,4 +1,7 @@
-# Setup
+## Intoduction
+Follow the step-by-step in this blog post -> https://inthecheesefactory.com/blog/how-to-setup-private-maven-repository/en
+
+## Setup
 
 ```groovy
 artifactory_username=USERNAME
